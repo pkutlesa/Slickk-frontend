@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-main-container{
+  min-height: 100%;
+}
+
+.nav{
+  position: fixed;
+  border-bottom: 1px solid lightgrey;
+  background-color: #FFFFFF;
+  top: 0;
+}
+
+.main-container{
+  margin-top: 61px;
+  min-height: calc(100vh - 61px);
+  background-color: #fafafa;
+}
+
+.footer{
+  width: 100vw;
+  height: 370px;
+  border-top: 1px solid lightgrey;
+  background-color: white;
+  bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

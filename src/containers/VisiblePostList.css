@@ -1,0 +1,29 @@
+.postlist-main-container{
+}
+
+.filter-container{
+	position: fixed;
+	width: 12.25%;
+	max-height: 100vh;
+}
+
+.posts-container{
+	width: 75.5%;
+	margin-left: 12.25%;
+}
+
+.sort-container{
+	width: 12.25%;
+	height: 100%;
+}
+
+.post-components{	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.scroll-box{
+	min-height: 100vh;
+}
